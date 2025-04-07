@@ -1,9 +1,9 @@
 def check_vowels():
     # Código a implementar utilizando input.
     # Input
-    nombre = input("Ingrese un nombre: ")
-
-    # Imprime en pantalla
+    nombre = input()
+    nombre = nombre.lower()
+    
     print("Contiene a:", 'a' in nombre)
     print("Contiene e:", 'e' in nombre)
     print("Contiene i:", 'i' in nombre)
